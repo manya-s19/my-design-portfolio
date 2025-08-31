@@ -1,0 +1,94 @@
+
+/* ========== Base Theme ========== */
+:root{
+  --bg: #F7F6F2;
+  --card: #FFFFFF;
+  --ink: #0F172A;         /* slate-900 */
+  --muted: #475569;       /* slate-600 */
+  --accent: #8B5CF6;      /* violet-500 */
+  --accent-2: #14B8A6;    /* teal-500 */
+  --grid-gap: 24px;
+  --radius: 18px;
+  --shadow: 0 10px 30px rgba(2,6,23,0.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+  color:var(--ink);
+  background:var(--bg);
+  line-height:1.6;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{line-height:1.2;margin:0 0 12px}
+p{margin:0 0 12px}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+.btn{
+  display:inline-block;padding:12px 18px;border-radius:12px;background:var(--ink);color:#fff;
+  transition:transform .08s ease, box-shadow .2s ease;
+}
+.btn:hover{transform:translateY(-1px);box-shadow:0 8px 20px rgba(2,6,23,.15)}
+.btn.ghost{background:#fff;color:var(--ink);border:1px solid #E2E8F0}
+
+/* ========== Header ========== */
+.header{
+  position:sticky;top:0;z-index:50;background:rgba(247,246,242,.8);backdrop-filter:saturate(180%) blur(10px);
+  border-bottom:1px solid rgba(15,23,42,.06);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{width:40px;height:40px;border-radius:10px}
+.nav a{padding:8px 10px;border-radius:10px}
+.nav a:hover{background:rgba(2,6,23,.06)}
+.menu{display:flex;gap:6px;align-items:center}
+.menu-toggle{display:none}
+
+/* ========== Hero ========== */
+.hero{padding:80px 0}
+.kicker{color:var(--muted);letter-spacing:.08em;text-transform:uppercase;font-size:12px}
+.hero h1{font-size:44px;font-weight:800;margin-top:6px}
+.hero p{font-size:18px;color:var(--muted);max-width:720px}
+.hero .actions{margin-top:20px;display:flex;gap:12px;flex-wrap:wrap}
+
+/* ========== Project Grid ========== */
+.grid{
+  display:grid;gap:var(--grid-gap);
+  grid-template-columns:repeat(12, 1fr);
+}
+.card{
+  background:var(--card);border:1px solid rgba(15,23,42,.06);border-radius:var(--radius);
+  box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;
+  transition: transform .15s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(2,6,23,.12);border-color:rgba(15,23,42,.12)}
+.thumb{aspect-ratio: 16/10;background:#E2E8F0;display:flex;align-items:center;justify-content:center;font-weight:700;color:#475569}
+.card .content{padding:18px}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.tag{font-size:12px;padding:4px 8px;border-radius:999px;background:#EEF2FF;border:1px solid #E0E7FF}
+.meta{color:var(--muted);font-size:14px}
+
+/* ========== Case Study Page ========== */
+.hero-case{padding:70px 0 30px}
+.hero-case h1{font-size:38px}
+.hero-case .meta{margin-top:6px}
+.case-media{border-radius:16px;overflow:hidden;border:1px solid rgba(15,23,42,.06);box-shadow:var(--shadow);margin:18px 0}
+.section{padding:22px 0}
+.section h2{font-size:24px;margin-bottom:8px}
+.section .two-col{display:grid;grid-template-columns:2fr 1fr;gap:24px}
+.callout{background:#F1F5F9;border:1px solid #E2E8F0;border-radius:14px;padding:16px}
+.fig{margin:16px 0}
+.caption{font-size:13px;color:var(--muted)}
+
+/* ========== Footer ========== */
+.footer{padding:50px 0;color:var(--muted)}
+
+/* ========== Responsive ========== */
+@media (max-width: 900px){
+  .hero h1{font-size:36px}
+  .grid{grid-template-columns:1fr}
+  .section .two-col{grid-template-columns:1fr}
+  .menu{display:none}
+  .menu-toggle{display:inline-block}
+}
