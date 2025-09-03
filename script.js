@@ -1,7 +1,10 @@
 
-document.querySelectorAll('.menu-toggle').forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    const menu=btn.parentElement.querySelector('.menu');
-    if(menu.style.display==='flex'){menu.style.display='none';}else{menu.style.display='flex';}
+// Mobile menu toggle
+const toggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
+if(toggle){
+  toggle.addEventListener('click',()=>{
+    if(menu.style.display==='flex'){ menu.style.display='none'; }
+    else{ menu.style.display='flex'; }
   });
-});
+}
