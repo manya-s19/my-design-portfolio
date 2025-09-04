@@ -1,6 +1,6 @@
 
 // Mobile menu toggle
-const toggle = document.querySelector('.menu-toggle');
+const menuToggle = document.querySelector('.menu-toggle');
 const menu = document.querySelector('.menu');
 menuToggle.addEventListener('click', () => {
   menu.classList.toggle('active');     // show/hide menu
