@@ -43,7 +43,7 @@ p { margin:0 0 12px; }
   text-decoration: none;
 }
 .btn:hover {
-  background: #ecbb8e; color: #282b28;
+  background: #ecd3bc; color: #282b28;
   transform: translateY(-1px);
   box-shadow: 0 6px 16px rgba(90,103,216,0.25);
 }
@@ -54,7 +54,7 @@ p { margin:0 0 12px; }
   text-decoration: none;
 }
 .btn.ghost:hover {
-  background: #ecbb8e; color: #282b28;
+  background: #f6dac0; color: #282b28;
   background: var(--accent-3);
 }
 
