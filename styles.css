@@ -55,7 +55,7 @@ p { margin:0 0 12px; }
 }
 .btn.ghost:hover {
   background: #f6dac0; color: #282b28;
-  background: var(--accent-3);
+  background: #ebaea8;
 }
 
 /* ========== Header ========== */
