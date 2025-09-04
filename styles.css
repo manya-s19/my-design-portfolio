@@ -139,7 +139,7 @@ p { margin:0 0 12px; }
   padding: 4px 10px;
   border-radius: 16px;
   background: var(--accent-3);
-  color: var(--accent);
+  color: var(--ink);
   font-weight: 500;
 }
 .meta { color: var(--muted); font-size: 14px; line-height: 1.5; }
