@@ -197,11 +197,8 @@ p { margin:0 0 12px; }
   .menu-toggle.hide {
     display: none; /* hide button when menu is open */
   }
-  .card .content,
-  .card .content h1,
-  .card .tags {
+  .card .thumb h1 {
     text-align: center !important;
-    justify-content: center;
   }
 }
 
