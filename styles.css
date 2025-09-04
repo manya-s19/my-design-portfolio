@@ -4,9 +4,9 @@
   --card: #FFFCFA;         /* slightly warmer card background */
   --ink: #1C1B1F;          /* dark text */
   --muted: #7C6B67;        /* soft muted gray-brown */
-  --accent: #E8B4B8;       /* very soft dusty pink */
-  --accent-2: #F0C89B;     /* very soft peachy orange */
-  --accent-3: #F2E2A9;     /* very soft buttery yellow */
+  --accent: #945d62;       /* very soft dusty pink */
+  --accent-2: #d4a774;     /* very soft peachy orange */
+  --accent-3: #e3d18f;     /* very soft buttery yellow */
   --grid-gap: 24px;
   --radius: 12px;
   --shadow: 0 4px 12px rgba(44,62,80,0.08);
