@@ -200,7 +200,7 @@ p { margin:0 0 12px; }
 }
 
 .image-stack img {
-  width: 100px; /* adjust size */
+  width: 700px; /* adjust size */
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
