@@ -233,6 +233,7 @@ p { margin:0 0 12px; }
   overflow-y: scroll;     /* enable vertical scroll */
   padding: 20px;
   margin: auto;
+  background-color: #f0f8ff;
   border: 1px solid #ccc;
   border-radius: 12px;
 }
