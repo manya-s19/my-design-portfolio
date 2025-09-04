@@ -263,3 +263,11 @@ p { margin:0 0 12px; }
   transform: scale(1.05);
 }
 
+.case-study {
+  font-size: 2rem;        /* makes it bigger */
+  font-weight: 700;       /* bold */
+  color: #333;            /* dark gray for contrast */
+  margin-bottom: 20px;    /* spacing below */
+  text-transform: uppercase; /* optional: all caps */
+  letter-spacing: 1px;    /* optional: a little spacing for emphasis */
+}
