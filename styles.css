@@ -198,8 +198,11 @@ p { margin:0 0 12px; }
     display: none; /* hide button when menu is open */
   }
   .card .content,
-  .card .content {
+  .card .content h3,
+  .card .content p,
+  .card .tags {
     text-align: center !important;
+    justify-content: center;
   }
 }
 
