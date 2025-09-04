@@ -21,6 +21,11 @@ body {
   background: var(--bg);
   line-height: 1.6;
 }
+
+a {
+  text-decoration: none;
+}
+
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; text-decoration: nor ne; }
 h1,h2,h3 { line-height:1.2; margin:0 0 12px; }
