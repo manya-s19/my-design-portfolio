@@ -197,6 +197,10 @@ p { margin:0 0 12px; }
   .menu-toggle.hide {
     display: none; /* hide button when menu is open */
   }
+  .card h3,
+  .card .content {
+    text-align: center;
+  }
 }
 
 @media (max-width: 600px) {
