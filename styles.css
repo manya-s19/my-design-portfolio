@@ -218,14 +218,29 @@ p { margin:0 0 12px; }
 
 .slides {
   display: flex;
-  flex-direction: column; /* vertical scroll */
+  flex-direction: column;
   gap: 20px;
-  max-width: 800px; /* adjust to fit screen */
+  width: 80%;
+  max-width: 900px;
+  height: 600px;          /* fixed height for scrollable area */
+  overflow-y: scroll;     /* enable vertical scroll */
+  padding: 20px;
   margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 12px;
 }
 
 .slides img {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.slides::-webkit-scrollbar {
+  width: 8px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
 }
