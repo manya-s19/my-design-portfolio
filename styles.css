@@ -244,3 +244,20 @@ p { margin:0 0 12px; }
   background: #ccc;
   border-radius: 4px;
 }
+
+.compare-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff6f61; /* accent color */
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.compare-btn:hover {
+  background: #ff4a3c;
+  transform: scale(1.05);
+}
+
