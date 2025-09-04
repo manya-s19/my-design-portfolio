@@ -4,9 +4,9 @@
   --card: #FFFCFA;         /* slightly warmer card background */
   --ink: #1C1B1F;          /* dark text */
   --muted: #4a3040;        /* soft muted gray-brown */
-  --accent: #e4a96e;       /* very soft dusty pink */
-  --accent-2: #dd7943;     /* very soft peachy orange */
-  --accent-3: #ecb887;     /* very soft buttery yellow */
+  --accent: #dbaf83;       /* very soft dusty pink */
+  --accent-2: #c5967d;     /* very soft peachy orange */
+  --accent-3: #d1a777;     /* very soft buttery yellow */
   --grid-gap: 24px;
   --radius: 12px;
   --shadow: 0 4px 12px rgba(44,62,80,0.08);
@@ -70,7 +70,7 @@ p { margin:0 0 12px; }
 .brand { display: flex; align-items: center; gap: 12px; font-weight: 600; }
 .brand img { width: 40px; height: 40px; border-radius: 8px; background: var(--accent); }
 .nav a { padding: 8px 12px; border-radius: 8px; transition: all 0.2s ease; }
-.nav a:hover { background: var(--accent-3); color: var(--accent); }
+.nav a:hover { background: #ecbb8e; color: #282b28; }
 .menu { display: flex; gap: 8px; align-items: center; }
 .menu-toggle { display: none; }
 
