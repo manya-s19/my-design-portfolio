@@ -191,3 +191,27 @@ p { margin:0 0 12px; }
   .hero p { font-size: 16px; }
   .card .content { padding: 20px; }
 }
+
+.image-stack {
+  display: flex;
+  justify-content: center;
+  gap: -30px; /* negative gap makes images overlap */
+  flex-wrap: wrap; /* allows multiple rows for W shape */
+}
+
+.image-stack img {
+  width: 100px; /* adjust size */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.image-stack img:nth-child(odd) {
+  transform: translateY(-20px); /* lifts odd images for a W pattern */
+}
+
+.image-stack img:hover {
+  transform: scale(1.1); /* optional hover effect */
+  z-index: 10; /* bring hovered image to front */
+}
