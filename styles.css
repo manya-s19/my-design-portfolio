@@ -43,6 +43,7 @@ p { margin:0 0 12px; }
   text-decoration: none;
 }
 .btn:hover {
+  background: #ecbb8e; color: #282b28;
   transform: translateY(-1px);
   box-shadow: 0 6px 16px rgba(90,103,216,0.25);
 }
@@ -53,7 +54,7 @@ p { margin:0 0 12px; }
   text-decoration: none;
 }
 .btn.ghost:hover {
-  border-color: var(--accent);
+  background: #ecbb8e; color: #282b28;
   background: var(--accent-3);
 }
 
