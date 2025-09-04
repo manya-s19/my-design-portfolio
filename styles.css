@@ -1,12 +1,12 @@
 /* ========== Base Theme ========== */
 :root {
---bg: #FEFAF8;          /* very soft warm cream background */
+--bg: #EDDDD4;          /* very soft warm cream background */
   --card: #FFFCFA;         /* slightly warmer card background */
   --ink: #1C1B1F;          /* dark text */
-  --muted: #7C6B67;        /* soft muted gray-brown */
-  --accent: #945d62;       /* very soft dusty pink */
-  --accent-2: #d4a774;     /* very soft peachy orange */
-  --accent-3: #e3d18f;     /* very soft buttery yellow */
+  --muted: #987284;        /* soft muted gray-brown */
+  --accent: #ce6a85;       /* very soft dusty pink */
+  --accent-2: #D69FAE;     /* very soft peachy orange */
+  --accent-3: #ecbb8e;     /* very soft buttery yellow */
   --grid-gap: 24px;
   --radius: 12px;
   --shadow: 0 4px 12px rgba(44,62,80,0.08);
